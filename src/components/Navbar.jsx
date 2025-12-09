@@ -38,12 +38,12 @@ const Navbar = () => {
         }`}
        >
         <ul className="uppercase p-7 flex flex-col items-center mt-24">
-          <li className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#FF4C00] transition-colors">Home</li>
-          <li className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#FF4C00] transition-colors">About</li>
-          <li className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#FF4C00] transition-colors">Categories</li>
-          <li className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#FF4C00] transition-colors">Contact</li>
+          <li className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#054C73] transition-colors">Home</li>
+          <li className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#054C73] transition-colors">About</li>
+          <li className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#054C73] transition-colors">Categories</li>
+          <li className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#054C73] transition-colors">Contact</li>
           <li className="mt-4">
-            <button className="px-8 py-3 cursor-pointer font-semibold text-sm bg-[#FF4C00] rounded-full text-white transition-colors">
+            <button className="px-8 py-3 cursor-pointer font-semibold text-sm bg-[#054C73] rounded-full text-white transition-colors">
               Get the app
             </button>
           </li>
