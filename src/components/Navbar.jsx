@@ -11,13 +11,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 px-4 max-w-[1240px] mx-auto font-['sans-serif]">
+    <div className="flex justify-between items-center h-24 px-7 max-w-[1340px] mx-auto font-['sans-serif]">
       <h1 className="text-3xl font-bold text-[#054C73]">ShopLink</h1>
       <ul className="hidden md:flex items-center">
-        <li className="p-4 cursor-pointer font-semibold text-sm hover:text-[#FF4C00] transition-colors text-zinc-700">Home</li>
-        <li className="p-4 cursor-pointer font-semibold text-sm hover:text-[#FF4C00] transition-colors text-zinc-700">About</li>
-        <li className="p-4 cursor-pointer font-semibold text-sm hover:text-[#FF4C00] transition-colors text-zinc-700">Categories</li>
-        <li className="p-4 cursor-pointer font-semibold text-sm hover:text-[#FF4C00] transition-colors text-zinc-700">Contact</li>
+        <li className="p-6 cursor-pointer font-semibold text-sm hover:text-[#054C73] transition-colors text-zinc-700">Home</li>
+        <li className="p-6 cursor-pointer font-semibold text-sm hover:text-[#054C73] transition-colors text-zinc-700">About</li>
+        <li className="p-6 cursor-pointer font-semibold text-sm hover:text-[#054C73] transition-colors text-zinc-700">Categories</li>
+        <li className="p-6 cursor-pointer font-semibold text-sm hover:text-[#054C73] transition-colors text-zinc-700">Contact</li>
         <li className="ml-2">
           <button className="px-6 py-3 cursor-pointer bg-[#054C73] rounded-full text-white transition-colors font-semibold text-sm">
             Get the app
