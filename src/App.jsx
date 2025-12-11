@@ -1,10 +1,12 @@
 import React from "react";
 import NavBar from "./components/Navbar.jsx";
+import Home from "./components/Home.jsx";
 
 function App() {
   return (
     <>
       <NavBar />
+      <Home />
    
     </>
   );
