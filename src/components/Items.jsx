@@ -30,11 +30,12 @@ const Items = () => {
                 <p className="mt-1 text-sm text-gray-500">Black</p>
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
-             <div className="flex"> 
-              <a href="https://www.facebook.com/" className="w-9 px-5 py-2 text-[#054c73] font-bold"><HiArrowCircleRight size="30px"/></a>
-             </div>
+             
             
             </div>
+           <div className="flex"> 
+              <a href="https://www.facebook.com/" className="w-9 px-5 py-2 text-[#054c73] font-bold"><HiArrowCircleRight size="30px"/></a>
+             </div>
           </div>
 
           {/* Product 2 */}
