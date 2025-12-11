@@ -4,7 +4,7 @@ import "../App.css"
 const Items = () => {
   return (
     <div className="header">
-      <span className="title">Hello World</span>
+      <span className="text-sm item-center">Hello World</span>
     </div>
   );
 };
