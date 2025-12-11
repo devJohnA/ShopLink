@@ -22,7 +22,7 @@ const Items = () => {
             <div className="mt-4 flex justify-between">
               <div>
                 <h3 className="text-sm text-gray-700">
-                  <a href="#">
+                  <a href="https://www.facebook.com/">
                     <span aria-hidden="true" className="absolute inset-0"></span>
                     Basic Tee
                   </a>
