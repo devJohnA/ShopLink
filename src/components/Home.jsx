@@ -39,9 +39,6 @@ const Home = () => {
               >
                 Get started
               </a>
-
-              <a href="#" className="text-sm font-semibold text-white leading-6">
-                Learn more →
               </a>
             </div>
           </div>
@@ -66,6 +63,7 @@ const Home = () => {
 };
 
 export default Home;
+
 
 
 
