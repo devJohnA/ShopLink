@@ -29,7 +29,10 @@ const Items = () => {
                 <p className="mt-1 text-sm text-gray-500">Black</p>
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
-             <a href="#" className="bg-[#054C73] rounded text-sm w-3 h-3 px-2">Buy Now</a>
+             <div> 
+              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-7 px-2 text-white">Buy Now</a>
+             </div>
+            
             </div>
           </div>
 
