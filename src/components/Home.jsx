@@ -31,16 +31,6 @@ const Home = () => {
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
               lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
             </p>
-
-            <div className="mt-10 flex items-center justify-center gap-x-8">
-              <a
-                href="#"
-                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-              >
-                Get started
-              </a>
-              </a>
-            </div>
           </div>
         </div>
 
@@ -63,6 +53,7 @@ const Home = () => {
 };
 
 export default Home;
+
 
 
 
