@@ -54,6 +54,9 @@ const Items = () => {
                 <p className="mt-1 text-sm text-gray-500">Aspen White</p>
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
+             <div> 
+              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-5 py-2 text-white font-bold">Buy Now</a>
+             </div>
             </div>
           </div>
 
@@ -75,6 +78,9 @@ const Items = () => {
                 <p className="mt-1 text-sm text-gray-500">Charcoal</p>
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
+             <div> 
+              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-5 py-2 text-white font-bold">Buy Now</a>
+             </div>
             </div>
           </div>
 
@@ -96,6 +102,9 @@ const Items = () => {
                 <p className="mt-1 text-sm text-gray-500">Iso Dots</p>
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
+             <div> 
+              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-5 py-2 text-white font-bold">Buy Now</a>
+             </div>
             </div>
           </div>
 
@@ -116,6 +125,9 @@ const Items = () => {
                 <p className="mt-1 text-sm text-gray-500">Iso Dots</p>
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
+             <div> 
+              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-5 py-2 text-white font-bold">Buy Now</a>
+             </div>
             </div>
           </div>
 
@@ -136,6 +148,9 @@ const Items = () => {
                 <p className="mt-1 text-sm text-gray-500">Iso Dots</p>
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
+             <div> 
+              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-5 py-2 text-white font-bold">Buy Now</a>
+             </div>
             </div>
           </div>
 
@@ -156,6 +171,9 @@ const Items = () => {
                 <p className="mt-1 text-sm text-gray-500">Iso Dots</p>
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
+             <div> 
+              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-5 py-2 text-white font-bold">Buy Now</a>
+             </div>
             </div>
           </div>
 
@@ -176,6 +194,9 @@ const Items = () => {
                 <p className="mt-1 text-sm text-gray-500">Iso Dots</p>
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
+             <div> 
+              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-5 py-2 text-white font-bold">Buy Now</a>
+             </div>
             </div>
           </div>
 
@@ -196,6 +217,9 @@ const Items = () => {
                 <p className="mt-1 text-sm text-gray-500">Iso Dots</p>
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
+             <div> 
+              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-5 py-2 text-white font-bold">Buy Now</a>
+             </div>
             </div>
           </div>
 
@@ -216,6 +240,9 @@ const Items = () => {
                 <p className="mt-1 text-sm text-gray-500">Iso Dots</p>
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
+             <div> 
+              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-5 py-2 text-white font-bold">Buy Now</a>
+             </div>
             </div>
           </div>
 
