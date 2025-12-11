@@ -23,7 +23,7 @@ const Home = () => {
         {/* Main Content */}
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
-            <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+            <h1 className="text-5xl font-semibold tracking-tight text-gray-400 sm:text-7xl">
               Data to enrich your online business
             </h1>
 
@@ -53,6 +53,7 @@ const Home = () => {
 };
 
 export default Home;
+
 
 
 
