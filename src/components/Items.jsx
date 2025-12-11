@@ -31,7 +31,7 @@ const Items = () => {
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
              <div className="flex"> 
-              <a href="#" className="w-9 px-5 py-2 text-white font-bold"><HiArrowCircleRight size="30px"/></a>
+              <a href="#" className="w-9 px-5 py-2 text-[#054c73] font-bold"><HiArrowCircleRight size="30px"/></a>
              </div>
             
             </div>
