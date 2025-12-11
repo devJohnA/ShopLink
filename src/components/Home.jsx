@@ -3,12 +3,6 @@ import "../App.css";
 const Home = () => {
   return (
     <div>
-
-      {/* Header */}
-      <div className="header">
-        <span className="title">Word Hunt</span>
-      </div>
-
       {/* Hero Section */}
       <div className="relative isolate px-6 pt-14 lg:px-8">
 
@@ -82,5 +76,6 @@ const Home = () => {
 };
 
 export default Home;
+
 
 
