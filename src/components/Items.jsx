@@ -30,7 +30,7 @@ const Items = () => {
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
              <div> 
-              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-6 text-white font-bold">Buy Now</a>
+              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 p-6 text-white font-bold">Buy Now</a>
              </div>
             
             </div>
