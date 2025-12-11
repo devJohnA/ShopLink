@@ -8,8 +8,8 @@ function App() {
     <>
       <Navbar />
       <Home />
-     {/* <Items /> 
-      <Footer /> */}
+      <Items /> 
+      <Footer /> 
     </>
   );
 }
