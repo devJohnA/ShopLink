@@ -1,9 +1,10 @@
 import React from "react";
+import "../App.css"
 
 const Items = () => {
   return (
     <div className="header">
-      <span className="title">Word Hunt</span>
+      <span className="title">Hello World</span>
     </div>
   );
 };
