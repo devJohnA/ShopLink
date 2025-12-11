@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./components/Navbar.jsx";
 import Home from "./components/Home.jsx";
-import Item from "./components/Item.jsx";
+import Items from "./components/Items.jsx";
 function App() {
   return (
     <>
