@@ -33,10 +33,11 @@ const Items = () => {
              
             
             </div>
-           <div className="flex"> 
+          
+          </div>
+          <div className="flex"> 
               <a href="https://www.facebook.com/" className="w-9 px-5 py-2 text-[#054c73] font-bold"><HiArrowCircleRight size="30px"/></a>
              </div>
-          </div>
 
           {/* Product 2 */}
           <div className="group relative">
