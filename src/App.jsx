@@ -9,6 +9,7 @@ function App() {
       <NavBar />
       <Home />
      <Items />
+      <Footer />
     </>
   );
 }
