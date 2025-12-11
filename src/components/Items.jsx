@@ -1,5 +1,6 @@
 import React from "react";
-import "../App.css"
+import "../App.css";
+import { HiArrowCircleRight } from "react-icons/hi";
 
 const Items = () => {
  return (
@@ -79,7 +80,8 @@ const Items = () => {
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
              <div> 
-              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-5 py-2 text-white font-bold">Buy Now</a>
+              
+              <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-5 py-2 text-white font-bold"><HiArrowCircleRight size="24px" /> </a>
              </div>
             </div>
           </div>
