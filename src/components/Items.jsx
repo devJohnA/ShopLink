@@ -30,7 +30,7 @@ const Items = () => {
                 <p className="mt-1 text-sm text-gray-500">Black</p>
               </div>
               <p className="text-sm font-medium text-gray-900">$35</p>
-             <div> 
+             <div className="flex"> 
               <a href="#" className="bg-[#054C73] rounded text-sm w-9 h-15 px-5 py-2 text-white font-bold"><HiArrowCircleRight /></a>
              </div>
             
