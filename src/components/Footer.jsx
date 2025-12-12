@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className="w-full py-14 mt-23">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
-
           {/* Logo */}
           <h2 className="flex justify-center text-[#054C73] font-bold text-2xl">
             ShopLink
@@ -14,35 +13,55 @@ const Footer = () => {
 
           {/* Nav Links */}
           <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
-            <li><a href="#" className="text-gray-800 hover:text-gray-900">Pagedone</a></li>
-            <li><a href="#" className="text-gray-800 hover:text-gray-900">Products</a></li>
-            <li><a href="#" className="text-gray-800 hover:text-gray-900">Resources</a></li>
-            <li><a href="#" className="text-gray-800 hover:text-gray-900">Blogs</a></li>
-            <li><a href="#" className="text-gray-800 hover:text-gray-900">Support</a></li>
+            <li>
+              <a href="#" className="text-gray-800 hover:text-gray-900">
+                Pagedone
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-800 hover:text-gray-900">
+                Products
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-800 hover:text-gray-900">
+                Resources
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-800 hover:text-gray-900">
+                Blogs
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-800 hover:text-gray-900">
+                Support
+              </a>
+            </li>
           </ul>
 
           {/* Social Icons (TikTok + Facebook only) */}
           <div className="flex space-x-10 justify-center items-center mb-14">
-
-            {/* TikTok */}
-            <a href="#" className="block text-gray-900 transition-all duration-500 hover:text-indigo-600">
+            {/* TikTok (Updated Icon) */}
+            <a
+              href="#"
+              className="block text-gray-900 transition-all duration-500 hover:text-gray-600"
+            >
               <svg
-                className="w-[1.875rem] h-[1.375rem]"
-                viewBox="0 0 30 22"
-                fill="none"
+                className="w-[1.875rem] h-[1.875rem]"
+                viewBox="0 0 256 256"
+                fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M26.3106 1.27838C27.5782 1.62071 28.5745 2.61957 28.9113 3.88573C29.524 6.18356 29.524 10.9809 29.524 10.9809C29.524 10.9809 29.524 15.7782 28.9113 18.076C28.5698 19.3469 27.5735 20.3457 26.3106 20.6834C24.0186 21.2977 14.8226 21.2977 14.8226 21.2977C14.8226 21.2977 5.63122 21.2977 3.33456 20.6834C2.06695 20.3411 1.07063 19.3422 0.73385 18.076C0.121094 15.7782 0.121094 10.9809 0.121094 10.9809C0.121094 10.9809 0.121094 6.18356 0.73385 3.88573C1.07531 2.61488 2.07162 1.61602 3.33456 1.27838C5.63122 0.664062 14.8226 0.664062 14.8226 0.664062C14.8226 0.664062 24.0186 0.664062 26.3106 1.27838ZM19.5234 10.9809L11.885 15.403V6.55872L19.5234 10.9809Z"
-                  fill="currentColor"
-                />
+                <path d="M232 72.1a55.8 55.8 0 0 1-40-16.6A56.3 56.3 0 0 1 176 16h-32a8 8 0 0 0-8 8v120.4a24 24 0 1 1-17-23l1 .3V88a8 8 0 0 0-8-8 72 72 0 1 0 72 72V94.7a88 88 0 0 0 48 14.4 8 8 0 0 0 8-8V80a8 8 0 0 0-8-7.9Z" />
               </svg>
             </a>
 
             {/* Facebook */}
-            <a href="#" className="block text-gray-900 transition-all duration-500 hover:text-indigo-600">
+            <a
+              href="#"
+              className="block text-gray-900 transition-all duration-500 hover:text-blue-600"
+            >
               <svg
                 className="w-[0.938rem] h-[1.625rem]"
                 viewBox="0 0 15 26"
@@ -59,7 +78,8 @@ const Footer = () => {
 
           {/* Bottom Text */}
           <span className="text-lg text-gray-500 text-center block">
-            ©<a href="https://pagedone.io/">pagedone</a> 2024, All rights reserved.
+            ©<a href="https://pagedone.io/">pagedone</a> 2024, All rights
+            reserved.
           </span>
         </div>
       </div>
