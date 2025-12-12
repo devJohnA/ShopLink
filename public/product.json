@@ -30,5 +30,86 @@
     "price": "$35",
     "image": "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-04.jpg",
     "link": "https://www.facebook.com/"
+  },
+
+  {
+    "id": 5,
+    "name": "Nike Sportswear Tee",
+    "color": "Black",
+    "price": "$45",
+    "image": "https://images.unsplash.com/photo-1556906781-9a412961c28c",
+    "link": "https://www.nike.com/"
+  },
+  {
+    "id": 6,
+    "name": "Nike Dri-FIT Training Shirt",
+    "color": "White",
+    "price": "$50",
+    "image": "https://images.unsplash.com/photo-1618354691373-df39b63a69c9",
+    "link": "https://www.nike.com/"
+  },
+  {
+    "id": 7,
+    "name": "Adidas Originals Trefoil Tee",
+    "color": "Black/White",
+    "price": "$40",
+    "image": "https://images.unsplash.com/photo-1595950653175-1c05e8c0d2bb",
+    "link": "https://www.adidas.com/"
+  },
+  {
+    "id": 8,
+    "name": "Adidas Performance Training Shirt",
+    "color": "Blue",
+    "price": "$48",
+    "image": "https://images.unsplash.com/photo-1620796340690-7a6e5aa58f63",
+    "link": "https://www.adidas.com/"
+  },
+  {
+    "id": 9,
+    "name": "Puma Essentials Tee",
+    "color": "Red",
+    "price": "$35",
+    "image": "https://images.unsplash.com/photo-1593032465171-d4fd2a8586c0",
+    "link": "https://us.puma.com/"
+  },
+  {
+    "id": 10,
+    "name": "Puma Sportstyle Graphic Shirt",
+    "color": "Black/Gold",
+    "price": "$38",
+    "image": "https://images.unsplash.com/photo-1600185365318-90c69f3516ed",
+    "link": "https://us.puma.com/"
+  },
+  {
+    "id": 11,
+    "name": "New Balance Training Tee",
+    "color": "Gray",
+    "price": "$42",
+    "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b",
+    "link": "https://www.newbalance.com/"
+  },
+  {
+    "id": 12,
+    "name": "New Balance Essentials Logo Tee",
+    "color": "Navy",
+    "price": "$38",
+    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2",
+    "link": "https://www.newbalance.com/"
+  },
+  {
+    "id": 13,
+    "name": "Nike Streetwear Graphic Tee",
+    "color": "Beige",
+    "price": "$50",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f",
+    "link": "https://www.nike.com/"
+  },
+  {
+    "id": 14,
+    "name": "Adidas Adicolor Classics Tee",
+    "color": "Green",
+    "price": "$45",
+    "image": "https://images.unsplash.com/photo-1618354691114-d20f15c707a0",
+    "link": "https://www.adidas.com/"
   }
 ]
