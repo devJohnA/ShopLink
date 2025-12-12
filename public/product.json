@@ -31,69 +31,68 @@
     "image": "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-04.jpg",
     "link": "https://www.facebook.com/"
   },
-
-  {
+ {
     "id": 5,
-    "name": "Nike Sportswear Tee",
+    "name": "Nike Sportswear Logo Tee",
     "color": "Black",
     "price": "$45",
-    "image": "https://images.unsplash.com/photo-1556906781-9a412961c28c",
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/356b7d80-18e4-4dc9-8d83-2b2043614d89/sportswear-t-shirt.png",
     "link": "https://www.nike.com/"
   },
   {
     "id": 6,
-    "name": "Nike Dri-FIT Training Shirt",
+    "name": "Nike Dri-FIT Logo Tee",
     "color": "White",
     "price": "$50",
-    "image": "https://images.unsplash.com/photo-1618354691373-df39b63a69c9",
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fcb04e3f-dfdc-41bf-9f4e-f01a06979cd4/dri-fit-tee.png",
     "link": "https://www.nike.com/"
   },
   {
     "id": 7,
     "name": "Adidas Originals Trefoil Tee",
-    "color": "Black/White",
+    "color": "Black",
     "price": "$40",
-    "image": "https://images.unsplash.com/photo-1595950653175-1c05e8c0d2bb",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/6e01b9bcd8864f8fa88eaa6b00adcb11_9366/originals-trefoil-tee.png",
     "link": "https://www.adidas.com/"
   },
   {
     "id": 8,
-    "name": "Adidas Performance Training Shirt",
+    "name": "Adidas Performance Tee",
     "color": "Blue",
     "price": "$48",
-    "image": "https://images.unsplash.com/photo-1620796340690-7a6e5aa58f63",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e993dc36d4ba4d409262ae9300fde41b_9366/performance-tee.png",
     "link": "https://www.adidas.com/"
   },
   {
     "id": 9,
-    "name": "Puma Essentials Tee",
+    "name": "Puma Essentials Logo Tee",
     "color": "Red",
     "price": "$35",
-    "image": "https://images.unsplash.com/photo-1593032465171-d4fd2a8586c0",
+    "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/586671/11/fnd/SEA/w/1000/h/1000/fmt/png",
     "link": "https://us.puma.com/"
   },
   {
     "id": 10,
-    "name": "Puma Sportstyle Graphic Shirt",
-    "color": "Black/Gold",
+    "name": "Puma Big Logo Tee",
+    "color": "Black",
     "price": "$38",
-    "image": "https://images.unsplash.com/photo-1600185365318-90c69f3516ed",
+    "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/586667/01/fnd/SEA/w/1000/h/1000/fmt/png",
     "link": "https://us.puma.com/"
   },
   {
     "id": 11,
-    "name": "New Balance Training Tee",
+    "name": "New Balance Athletics Logo Tee",
     "color": "Gray",
     "price": "$42",
-    "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b",
+    "image": "https://nb.scene7.com/is/image/NB/mt21559_ag_00_i?$pdpflexf2$&wid=440&hei=440",
     "link": "https://www.newbalance.com/"
   },
   {
     "id": 12,
-    "name": "New Balance Essentials Logo Tee",
+    "name": "New Balance Essentials Tee",
     "color": "Navy",
     "price": "$38",
-    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2",
+    "image": "https://nb.scene7.com/is/image/NB/mt21559_nvy_00_i?$pdpflexf2$&wid=440&hei=440",
     "link": "https://www.newbalance.com/"
   },
   {
@@ -101,7 +100,7 @@
     "name": "Nike Streetwear Graphic Tee",
     "color": "Beige",
     "price": "$50",
-    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f",
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e30c1e49-57b3-4beb-b08d-e067f342b2c7/sportswear-t-shirt.png",
     "link": "https://www.nike.com/"
   },
   {
@@ -109,7 +108,7 @@
     "name": "Adidas Adicolor Classics Tee",
     "color": "Green",
     "price": "$45",
-    "image": "https://images.unsplash.com/photo-1618354691114-d20f15c707a0",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/5ffdc39a0b37412aab59ada500ed6d61_9366/adicolor-classics-tee.png",
     "link": "https://www.adidas.com/"
   }
 ]
