@@ -49,7 +49,7 @@ const Home = () => {
                 Shop the hottest items from TikTok! Find amazing deals on trending products that everyone's talking about. Fast shipping, great prices, and quality guaranteed.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 items-center justify-content-center">
                 <button className="bg-[#054C73] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
                   Shop Now
                 </button>
@@ -118,3 +118,4 @@ const Home = () => {
 
 
 export default Home;
+
