@@ -40,7 +40,7 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             
             {/* Left Side - Introduction */}
-           <div className="text-center">
+           <div className="text-left">
   <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl mb-6">
     Discover Trending Apparel
   </h1>
@@ -119,6 +119,7 @@ const Home = () => {
 
 
 export default Home;
+
 
 
 
