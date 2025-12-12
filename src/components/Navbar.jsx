@@ -17,7 +17,6 @@ const Navbar = () => {
         <li className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700">Home</li>
         <li className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700">About</li>
         <li className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700">Categories</li>
-        <li className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700">Contact</li>
         <li className="ml-2">
           <button className="px-6 py-3 cursor-pointer bg-[#054C73] rounded-full text-white transition-colors font-semibold text-sm">
             Get the app
