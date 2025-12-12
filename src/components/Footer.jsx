@@ -15,7 +15,12 @@ const Footer = () => {
           <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
             <li>
               <a href="#" className="text-gray-800 hover:text-gray-900">
-                Pagedone
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-800 hover:text-gray-900">
+                About
               </a>
             </li>
             <li>
@@ -25,17 +30,7 @@ const Footer = () => {
             </li>
             <li>
               <a href="#" className="text-gray-800 hover:text-gray-900">
-                Resources
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-800 hover:text-gray-900">
-                Blogs
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-800 hover:text-gray-900">
-                Support
+                Categories
               </a>
             </li>
           </ul>
@@ -78,7 +73,7 @@ const Footer = () => {
 
           {/* Bottom Text */}
           <span className="text-lg text-gray-500 text-center block">
-            ©<a href="https://pagedone.io/">pagedone</a> 2024, All rights
+            ©<a href="https://pagedone.io/">ShopLink</a> 2025, All rights
             reserved.
           </span>
         </div>

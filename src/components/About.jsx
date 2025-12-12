@@ -51,13 +51,11 @@ const About = () => {
           <div className="flex items-center justify-center mb-5">
             <Star className="h-10 w-10 text-[#054c73]" />
           </div>
-          <h3 className="text-xl font-semibold text-center mb-3">Affiliate Support</h3>
+          <h3 className="text-xl font-semibold text-center mb-3">Affiliate Creator</h3>
           <p className="text-gray-600 text-center leading-relaxed">
-            Every link helps support creators through TikTok’s affiliate program, while you
-            enjoy a seamless shopping experience.
+            I built this platform for my own use to easily manage and organize my TikTok affiliate links.
           </p>
         </div>
-
       </div>
     </div>
   );
