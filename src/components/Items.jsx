@@ -38,7 +38,7 @@ const Items = () => {
           <h1 className="text-4xl sm:text-5xl font-bold text-[#054c73]">
             Trending Products You'll Love!
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mt-5">
             Discover the hottest deals on viral TikTok products. Limited stock,
             don't miss out!
           </p>
@@ -49,94 +49,32 @@ const Items = () => {
           <p className="text-center text-sm font-semibold text-gray-500 mb-8">
             TRUSTED BY LEADING BRANDS
           </p>
-          <div className="relative flex overflow-x-hidden">
-            <div className="flex animate-marquee whitespace-nowrap">
-              <div className="mx-8 flex items-center justify-center">
-                <img
-                  src="https://tailwindui.com/plus/img/logos/158x48/transistor-logo-gray-900.svg"
-                  alt="Brand 1"
-                  className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-                />
-              </div>
-              <div className="mx-8 flex items-center justify-center">
-                <img
-                  src="https://tailwindui.com/plus/img/logos/158x48/reform-logo-gray-900.svg"
-                  alt="Brand 2"
-                  className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-                />
-              </div>
-              <div className="mx-8 flex items-center justify-center">
-                <img
-                  src="https://tailwindui.com/plus/img/logos/158x48/tuple-logo-gray-900.svg"
-                  alt="Brand 3"
-                  className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-                />
-              </div>
-              <div className="mx-8 flex items-center justify-center">
-                <img
-                  src="https://tailwindui.com/plus/img/logos/158x48/savvycal-logo-gray-900.svg"
-                  alt="Brand 4"
-                  className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-                />
-              </div>
-              <div className="mx-8 flex items-center justify-center">
-                <img
-                  src="https://tailwindui.com/plus/img/logos/158x48/statamic-logo-gray-900.svg"
-                  alt="Brand 5"
-                  className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-                />
-              </div>
-              <div className="mx-8 flex items-center justify-center">
-                <img
-                  src="https://tailwindui.com/plus/img/logos/158x48/transistor-logo-gray-900.svg"
-                  alt="Brand 6"
-                  className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-                />
-              </div>
-            </div>
-            <div className="absolute top-0 flex animate-marquee2 whitespace-nowrap">
-              <div className="mx-8 flex items-center justify-center">
-                <img
-                  src="https://tailwindui.com/plus/img/logos/158x48/transistor-logo-gray-900.svg"
-                  alt="Brand 1"
-                  className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-                />
-              </div>
-              <div className="mx-8 flex items-center justify-center">
-                <img
-                  src="https://tailwindui.com/plus/img/logos/158x48/reform-logo-gray-900.svg"
-                  alt="Brand 2"
-                  className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-                />
-              </div>
-              <div className="mx-8 flex items-center justify-center">
-                <img
-                  src="https://tailwindui.com/plus/img/logos/158x48/tuple-logo-gray-900.svg"
-                  alt="Brand 3"
-                  className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-                />
-              </div>
-              <div className="mx-8 flex items-center justify-center">
-                <img
-                  src="https://tailwindui.com/plus/img/logos/158x48/savvycal-logo-gray-900.svg"
-                  alt="Brand 4"
-                  className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-                />
-              </div>
-              <div className="mx-8 flex items-center justify-center">
-                <img
-                  src="https://tailwindui.com/plus/img/logos/158x48/statamic-logo-gray-900.svg"
-                  alt="Brand 5"
-                  className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-                />
-              </div>
-              <div className="mx-8 flex items-center justify-center">
-                <img
-                  src="https://tailwindui.com/plus/img/logos/158x48/transistor-logo-gray-900.svg"
-                  alt="Brand 6"
-                  className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-                />
-              </div>
+
+          <div className="flex justify-center">
+            <div className="flex gap-16 animate-slide-soft">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg"
+                alt="Nike"
+                className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+              />
+
+              <img
+                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/newbalance.svg"
+                alt="New Balance"
+                className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+              />
+
+              <img
+                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/puma.svg"
+                alt="Puma"
+                className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+              />
+
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg"
+                alt="Adidas"
+                className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+              />
             </div>
           </div>
         </div>

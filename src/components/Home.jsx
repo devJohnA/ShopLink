@@ -53,9 +53,6 @@ const Home = () => {
                 <button className="bg-[#054C73] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
                   Shop Now
                 </button>
-                <button className="bg-white text-gray-800 px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-gray-200">
-                  Learn More
-                </button>
               </div>
             </div>
 

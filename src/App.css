@@ -4,28 +4,15 @@
 @import "tailwindcss";
 
 
-@keyframes marquee {
+@keyframes slide-soft {
   0% {
-    transform: translateX(0%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-40px);
   }
 }
 
-@keyframes marquee2 {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
-
-.animate-marquee {
-  animation: marquee 25s linear infinite;
-}
-
-.animate-marquee2 {
-  animation: marquee2 25s linear infinite;
+.animate-slide-soft {
+  animation: slide-soft 4s linear infinite alternate;
 }
