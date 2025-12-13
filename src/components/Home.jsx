@@ -42,7 +42,7 @@ const Home = () => {
             {/* Left Side - Introduction */}
            <div className="text-left">
   <h1 className="text-sm font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl mb-6">
-    Discover Trending Apparel
+    Discover Trendingasdasd Apparel
   </h1>
   
   <p className="text-xl text-gray-600 mb-8 leading-relaxed">
@@ -119,6 +119,7 @@ const Home = () => {
 
 
 export default Home;
+
 
 
 
