@@ -41,11 +41,11 @@ const Home = () => {
             
             {/* Left Side - Introduction */}
            <div className="text-left">
-  <h1 className="text-sm font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl mb-6">
+<h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl mb-6">
     Discover Trending Apparel
   </h1>
   
-  <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+  <p className="text-lg text-gray-600 mb-8 leading-relaxed">
     Shop the latest t-shirts, shorts, hats, shoes, and slippers that everyone loves. 
     Stay stylish with high-quality essentials at great prices — fast shipping guaranteed!
   </p>
