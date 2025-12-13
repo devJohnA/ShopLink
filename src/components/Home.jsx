@@ -40,26 +40,15 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             
             {/* Left Side - Introduction */}
-<<<<<<< HEAD
-            <div className="text-left">
-              <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl mb-6">
-                Discover Trendings Products
-              </h1>
-              
-              <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Shop the hottest items from TikTok! Find amazing deals on trending products that everyone's talking about. Fast shipping, great prices, and quality guaranteed.
-              </p>
-=======
            <div className="text-left">
   <h1 className="text-sm font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl mb-6">
-    Discover Trendingasdasd Apparel
+    Discover Trending Apparel
   </h1>
   
   <p className="text-xl text-gray-600 mb-8 leading-relaxed">
     Shop the latest t-shirts, shorts, hats, shoes, and slippers that everyone loves. 
     Stay stylish with high-quality essentials at great prices — fast shipping guaranteed!
   </p>
->>>>>>> c431b6f8c4e14462b85d6262b451c5a8c85fb4b1
 
   <div className="flex flex-col sm:flex-row gap-4">
     <button className="bg-[#054C73] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
