@@ -103,11 +103,11 @@ const Items = () => {
         {/* Main Content with Sidebar */}
         <div className="flex flex-col lg:flex-row gap-8" id="categories">
           {/* Left Sidebar - Categories */}
-          <div className="lg:w-64 shrink-0">
+          <div className="lg:w-64 shrink-0 mt-7">
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sticky top-4">
               <h3 className="text-lg font-bold text-gray-900 mb-4">Categories</h3>
               
-              <div className="space-y-6 mt-6">
+              <div className="space-y-6">
                 {categories.map((category) => (
                   <label
                     key={category}
