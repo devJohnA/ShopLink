@@ -33,7 +33,7 @@ const Navbar = () => {
 
       <div
         className={`fixed top-0 w-[80%] h-full bg-white ease-in-out duration-500 z-50 font-['sans-serif] ${
-          nav ? "left-0 border-r border-gray-200 shadow-lg" : "left-[-100%]"
+          nav ? "left-0 border-r border-gray-200 shadow-lg" : "-left-full"
         }`}
        >
         <ul className="uppercase p-7 flex flex-col items-center mt-24">
