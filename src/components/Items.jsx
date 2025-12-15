@@ -71,7 +71,7 @@ const Items = () => {
             TRUSTED BY LEADING BRANDS
           </p>
 
-          <div className="flex justify-center">
+          <div className="flex justify-center animate-slide-soft slide-soft">
             <div className="flex gap-16">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg"
