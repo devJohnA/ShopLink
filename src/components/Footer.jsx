@@ -26,12 +26,12 @@ const Footer = () => {
           {/* Nav Links */}
           <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
             <li>
-              <a href="#home" className="text-gray-800 hover:text-gray-900"  onClick={() => scrollToSection('home')}>
+              <a href="#" className="text-gray-800 hover:text-gray-900"  onClick={() => scrollToSection('home')}>
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="text-gray-800 hover:text-gray-900"  onClick={() => scrollToSection('about')}>
+              <a href="#" className="text-gray-800 hover:text-gray-900"  onClick={() => scrollToSection('about')}>
                 About
               </a>
             </li>
