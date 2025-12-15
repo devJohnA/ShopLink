@@ -4,7 +4,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  // Carousel images - replace with your actual product images
   const carouselImages = [
     "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&h=600&fit=crop",
     "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=800&h=600&fit=crop",
@@ -32,36 +31,43 @@ const Home = () => {
     setCurrentSlide(index);
   };
 
+  const scrollToCategories = () => {
+    const element = document.getElementById('categories');
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-      <div className="relative px-6 pt-8 lg:px-8">
+    <div id="home" className="min-h-screen bg-gray-50 flex items-center justify-center pt-24">
+      <div className="relative px-6 lg:px-8">
         <div className="mx-auto max-w-7xl py-16 sm:py-24 lg:py-32">
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             
-            {/* Left Side - Introduction */}
-           <div className="text-left">
-<h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl mb-6">
-    Discover Trending Apparel
-  </h1>
-  
-  <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-    Shop the latest t-shirts, shorts, hats, shoes, and slippers that everyone loves. 
-    Stay stylish with high-quality essentials at great prices — fast shipping guaranteed!
-  </p>
+            <div className="text-left">
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl mb-6">
+                Discover Trending Apparel
+              </h1>
+              
+              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                Shop the latest t-shirts, shorts, hats, shoes, and slippers that everyone loves. 
+                Stay stylish with high-quality essentials at great prices — fast shipping guaranteed!
+              </p>
 
-  <div className="flex flex-col sm:flex-row gap-4">
-    <button className="bg-[#054C73] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
-      Shop Now
-    </button>
-  </div>
-</div>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <button 
+                  onClick={scrollToCategories}
+                  className="bg-[#054C73] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
 
-            {/* Right Side - Carousel */}
             <div className="relative">
               <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden">
                 
-                {/* Carousel Images */}
                 <div className="relative h-[400px] sm:h-[500px]">
                   {carouselImages.map((image, index) => (
                     <div
@@ -79,7 +85,6 @@ const Home = () => {
                   ))}
                 </div>
 
-                {/* Navigation Arrows */}
                 <button
                   onClick={prevSlide}
                   className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
@@ -93,7 +98,6 @@ const Home = () => {
                   <ChevronRight className="w-6 h-6 text-gray-800" />
                 </button>
 
-                {/* Dots Indicator */}
                 <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2">
                   {carouselImages.map((_, index) => (
                     <button
