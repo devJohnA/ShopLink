@@ -57,7 +57,7 @@ const Navbar = () => {
               onClick={handleGetApp}
               className="px-8 py-3 cursor-pointer font-semibold text-sm bg-[#054C73] rounded-full text-white transition-colors hover:bg-[#043c5a]"
             >
-              Get the app
+              Android app
             </button>
           </li>
         </ul>
