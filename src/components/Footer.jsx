@@ -23,16 +23,6 @@ const Footer = () => {
                 About
               </a>
             </li>
-            <li>
-              <a href="#" className="text-gray-800 hover:text-gray-900">
-                Products
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-800 hover:text-gray-900">
-                Categories
-              </a>
-            </li>
           </ul>
 
           {/* Social Icons (TikTok + Facebook only) */}
