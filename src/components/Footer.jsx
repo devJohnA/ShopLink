@@ -1,7 +1,19 @@
 import React from "react";
 import "../App.css";
 
+
+
 const Footer = () => {
+
+      const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      setNav(false); // Close mobile menu after clicking
+    }
+  };
+
+
   return (
     <footer className="w-full py-14 mt-23">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -14,12 +26,12 @@ const Footer = () => {
           {/* Nav Links */}
           <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
             <li>
-              <a href="#" className="text-gray-800 hover:text-gray-900">
+              <a href="#home" className="text-gray-800 hover:text-gray-900"  onClick={() => scrollToSection('home')}>
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-800 hover:text-gray-900">
+              <a href="#about" className="text-gray-800 hover:text-gray-900"  onClick={() => scrollToSection('about')}>
                 About
               </a>
             </li>
