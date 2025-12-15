@@ -164,15 +164,15 @@ const Items = () => {
 
                   {/* Content */}
                   <div className="p-4">
-                    <h3 className="text-lg font-semibold text-gray-800 group-hover:text-[#054c73] transition-colors">
+                    <h4 className="text-lg font-semibold text-gray-800 group-hover:text-[#054c73] transition-colors">
                       {product.name}
-                    </h3>
+                    </h4>
 
                     <p className="text-sm text-gray-500 mt-1">{product.color}</p>
 
                     {/* Price + Button */}
                     <div className="mt-4 flex items-center justify-between">
-                      <p className="text-xl font-bold text-gray-900">
+                      <p className="text-lg font-bold text-gray-900">
                         {product.price}
                       </p>
 
