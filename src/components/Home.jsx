@@ -33,7 +33,7 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center" id="home">
       <div className="relative px-6 pt-8 lg:px-8">
         <div className="mx-auto max-w-7xl py-16 sm:py-24 lg:py-32">
           

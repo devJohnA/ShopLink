@@ -101,7 +101,7 @@ const Items = () => {
         </div>
 
         {/* Main Content with Sidebar */}
-        <div className="flex flex-col lg:flex-row gap-8">
+        <div className="flex flex-col lg:flex-row gap-8" id="categories">
           {/* Left Sidebar - Categories */}
           <div className="lg:w-64 shrink-0">
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sticky top-4">

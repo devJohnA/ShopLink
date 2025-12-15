@@ -4,7 +4,7 @@ import { ShoppingBag, LinkIcon, Star } from "lucide-react";
 
 const About = () => {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-24">
+    <div id="about" className="max-w-6xl mx-auto px-6 py-24">
 
       {/* Heading */}
       <h2 className="text-center font-bold text-4xl mb-8">
