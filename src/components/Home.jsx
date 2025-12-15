@@ -25,7 +25,9 @@ const Home = () => {
   };
 
   const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + carouselImages.length) % carouselImages.length);
+    setCurrentSlide(
+      (prev) => (prev - 1 + carouselImages.length) % carouselImages.length
+    );
   };
 
   const goToSlide = (index) => {
@@ -33,34 +35,38 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center" id="home">
+    <div
+      className="min-h-screen bg-gray-50 flex items-center justify-center"
+      id="home"
+    >
       <div className="relative px-6 pt-8 lg:px-8">
         <div className="mx-auto max-w-7xl py-16 sm:py-24 lg:py-32">
-          
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            
             {/* Left Side - Introduction */}
-           <div className="text-left">
-<h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl mb-6">
-    Discover Trending Apparel
-  </h1>
-  
-  <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-    Shop the latest t-shirts, shorts, hats, shoes, and slippers that everyone loves. 
-    Stay stylish with high-quality essentials at great prices — fast shipping guaranteed!
-  </p>
+            <div className="text-left">
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl mb-6">
+                Discover Trending Apparel
+              </h1>
 
-  <div className="flex flex-col sm:flex-row gap-4">
-    <button  onClick={() => scrollToSection('categories')} className="bg-[#054C73] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
-      Shop Now
-    </button>
-  </div>
-</div>
+              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                Shop the latest t-shirts, shorts, hats, shoes, and slippers that
+                everyone loves. Stay stylish with high-quality essentials at
+                great prices — fast shipping guaranteed!
+              </p>
+
+              <div className="flex flex-col sm:flex-row gap-4">
+                <button
+                  onClick={() => scrollToSection("categories")}
+                  className="bg-[#054C73] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
 
             {/* Right Side - Carousel */}
             <div className="relative">
               <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden">
-                
                 {/* Carousel Images */}
                 <div className="relative h-[400px] sm:h-[500px]">
                   {carouselImages.map((image, index) => (
@@ -109,7 +115,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -117,14 +122,4 @@ const Home = () => {
   );
 };
 
-
 export default Home;
-
-
-
-
-
-
-
-
-
