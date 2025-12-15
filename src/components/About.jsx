@@ -13,9 +13,9 @@ const About = () => {
 
       {/* Description */}
       <p className="text-center text-gray-600 max-w-2xl mx-auto mb-20 text-lg leading-relaxed">
-        ShopLink is a modern platform designed to make browsing TikTok Shop products
-        effortless. As a TikTok Affiliate, I created this website to help users discover
-        trending items and instantly redirect them to the official TikTok Shop page —
+        ShopLink is a modern platform designed to make browsing TikTok and Shopee Shop products
+        effortless. As a TikTok and Shopee Affiliate, I created this website to help users discover
+        trending items and instantly redirect them to the official TikTok and Shopee Shop page —
         fast, safe, and convenient.
       </p>
 
@@ -29,7 +29,7 @@ const About = () => {
           </div>
           <h3 className="text-xl font-semibold text-center mb-3">Easy Browsing</h3>
           <p className="text-gray-600 text-center leading-relaxed">
-            Explore curated TikTok Shop products without endless scrolling — clean,
+            Explore curated TikTok and Shopee Shop products without endless scrolling — clean,
             organized, and simple to use.
           </p>
         </div>
@@ -41,7 +41,7 @@ const About = () => {
           </div>
           <h3 className="text-xl font-semibold text-center mb-3">Direct Links</h3>
           <p className="text-gray-600 text-center leading-relaxed">
-            Get instantly redirected to the official TikTok Shop page — no ads, no clutter,
+            Get instantly redirected to the official TikTok and Shopee Shop page — no ads, no clutter,
             just the product you want.
           </p>
         </div>
@@ -53,7 +53,7 @@ const About = () => {
           </div>
           <h3 className="text-xl font-semibold text-center mb-3">Affiliate Creator</h3>
           <p className="text-gray-600 text-center leading-relaxed">
-            I built this platform for my own use to easily manage and organize my TikTok affiliate links.
+            I built this platform for my own use to easily manage and organize my TikTok and Shopee affiliate links.
           </p>
         </div>
       </div>
