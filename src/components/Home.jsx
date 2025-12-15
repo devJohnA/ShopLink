@@ -65,7 +65,7 @@ const Home = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
                   onClick={() => scrollToSection("categories")}
-                  className="bg-[#054C73] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+                  className="bg-[#054C73] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer"
                 >
                   Shop Now
                 </button>
