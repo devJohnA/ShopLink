@@ -34,6 +34,14 @@ const Home = () => {
     setCurrentSlide(index);
   };
 
+    const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      setNav(false); // Close mobile menu after clicking
+    }
+  };
+
   return (
     <div
       className="min-h-screen bg-gray-50 flex items-center justify-center"
