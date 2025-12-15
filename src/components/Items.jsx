@@ -1,19 +1,23 @@
 import React, { useState, useEffect } from "react";
 import { ArrowRight } from "lucide-react";
 
-const Categories = () => {
+const Items = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [categories, setCategories] = useState([]);
   const [selectedCategories, setSelectedCategories] = useState([]);
 
   useEffect(() => {
+    // Fetch products from product.json
     fetch("/product.json")
       .then((response) => response.json())
       .then((data) => {
         setProducts(data);
+        
+        // Extract unique categories from products
         const uniqueCategories = [...new Set(data.map(p => p.category).filter(Boolean))];
         setCategories(uniqueCategories);
+        
         setLoading(false);
       })
       .catch((error) => {
@@ -48,8 +52,9 @@ const Categories = () => {
   }
 
   return (
-    <div id="categories" className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        {/* Catchy Header Section */}
         <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl font-bold text-[#054c73]">
             Trending Products You'll Love!
@@ -60,6 +65,7 @@ const Categories = () => {
           </p>
         </div>
 
+        {/* Animated Brand Logos */}
         <div className="mb-16 overflow-hidden bg-gray-50 py-12 rounded-2xl">
           <p className="text-center text-sm font-semibold text-gray-500 mb-8">
             TRUSTED BY LEADING BRANDS
@@ -72,16 +78,19 @@ const Categories = () => {
                 alt="Nike"
                 className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
               />
+
               <img
                 src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/newbalance.svg"
                 alt="New Balance"
                 className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
               />
+
               <img
                 src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/puma.svg"
                 alt="Puma"
                 className="h-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
               />
+
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg"
                 alt="Adidas"
@@ -91,9 +100,11 @@ const Categories = () => {
           </div>
         </div>
 
+        {/* Main Content with Sidebar */}
         <div className="flex flex-col lg:flex-row gap-8">
-          <div className="lg:w-64 flex-shrink-0">
-            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sticky top-28">
+          {/* Left Sidebar - Categories */}
+          <div className="lg:w-64 shrink-0">
+            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sticky top-4">
               <h3 className="text-lg font-bold text-gray-900 mb-4">Categories</h3>
               
               <div className="space-y-3">
@@ -126,6 +137,7 @@ const Categories = () => {
             </div>
           </div>
 
+          {/* Right Content - Products */}
           <div className="flex-1">
             <div className="flex items-center justify-between mb-8">
               <h2 className="text-2xl font-bold tracking-tight text-gray-900">
@@ -141,6 +153,7 @@ const Categories = () => {
                   key={product.id}
                   className="group relative bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100"
                 >
+                  {/* Responsive Image */}
                   <div className="aspect-square w-full overflow-hidden rounded-t-2xl">
                     <img
                       src={product.image}
@@ -149,6 +162,7 @@ const Categories = () => {
                     />
                   </div>
 
+                  {/* Content */}
                   <div className="p-4">
                     <h3 className="text-lg font-semibold text-gray-800 group-hover:text-[#054c73] transition-colors">
                       {product.name}
@@ -156,6 +170,7 @@ const Categories = () => {
 
                     <p className="text-sm text-gray-500 mt-1">{product.color}</p>
 
+                    {/* Price + Button */}
                     <div className="mt-4 flex items-center justify-between">
                       <p className="text-xl font-bold text-gray-900">
                         {product.price}
@@ -185,6 +200,5 @@ const Categories = () => {
     </div>
   );
 };
-
 
 export default Items;

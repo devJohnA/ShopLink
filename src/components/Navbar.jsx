@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { Menu, X } from "lucide-react";
+import "../App.css";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+// import {ClickImage} from "../assets/clickimage";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -8,93 +10,43 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setNav(false); // Close mobile menu after clicking
-    }
-  };
-
   return (
-    <div className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
-      <div className="flex justify-between items-center h-24 px-7 max-w-[1340px] mx-auto">
-        <h1 
-          className="text-3xl font-bold text-[#054C73] cursor-pointer"
-          onClick={() => scrollToSection('home')}
-        >
-          ShopLink
-        </h1>
-        
-        <ul className="hidden md:flex items-center">
-          <li 
-            className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700"
-            onClick={() => scrollToSection('home')}
-          >
-            Home
-          </li>
-          <li 
-            className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700"
-            onClick={() => scrollToSection('about')}
-          >
-            About
-          </li>
-          <li 
-            className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700"
-            onClick={() => scrollToSection('categories')}
-          >
-            Categories
-          </li>
-          <li className="ml-2">
-            <button className="px-6 py-3 cursor-pointer bg-[#054C73] rounded-full text-white transition-colors font-semibold text-sm hover:bg-[#043c5a]">
+    <div className="flex justify-between items-center h-24 px-7 max-w-[1340px] mx-auto font-['sans-serif]">
+      <h1 className="text-3xl font-bold text-[#054C73]">ShopLink</h1>
+      <ul className="hidden md:flex items-center">
+        <li className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700">Home</li>
+        <li className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700">About</li>
+        <li className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700">Categories</li>
+        <li className="ml-2">
+          <button className="px-6 py-3 cursor-pointer bg-[#054C73] rounded-full text-white transition-colors font-semibold text-sm">
+            Get the app
+          </button>
+        </li>
+      </ul>
+      <div onClick={handleNav} className="block md:hidden cursor-pointer">
+        {nav ? (
+          <AiOutlineClose size={24} />
+        ) : (
+          <AiOutlineMenu size={24} />
+        )}
+      </div>
+
+      <div
+        className={`fixed top-0 w-[80%] h-full bg-white ease-in-out duration-500 z-50 font-['sans-serif] ${
+          nav ? "left-0 border-r border-gray-200 shadow-lg" : "-left-full"
+        }`}
+       >
+        <ul className="uppercase p-7 flex flex-col items-center mt-24">
+          <li className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#054C73] transition-colors">Home</li>
+          <li className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#054C73] transition-colors">About</li>
+          <li className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#054C73] transition-colors">Categories</li>
+          <li className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#054C73] transition-colors">Contact</li>
+          <li className="mt-4">
+            <button className="px-8 py-3 cursor-pointer font-semibold text-sm bg-[#054C73] rounded-full text-white transition-colors">
               Get the app
             </button>
           </li>
         </ul>
-        
-        <div onClick={handleNav} className="block md:hidden cursor-pointer">
-          {nav ? <X size={24} /> : <Menu size={24} />}
-        </div>
-
-        <div
-          className={`fixed top-0 w-[80%] h-full bg-white ease-in-out duration-500 z-50 ${
-            nav ? "left-0 border-r border-gray-200 shadow-lg" : "-left-full"
-          }`}
-        >
-          <ul className="uppercase p-7 flex flex-col items-center mt-24">
-            <li 
-              className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#054C73] transition-colors"
-              onClick={() => scrollToSection('home')}
-            >
-              Home
-            </li>
-            <li 
-              className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#054C73] transition-colors"
-              onClick={() => scrollToSection('about')}
-            >
-              About
-            </li>
-            <li 
-              className="p-4 cursor-pointer mb-4 font-semibold text-sm w-full text-center hover:text-[#054C73] transition-colors"
-              onClick={() => scrollToSection('categories')}
-            >
-              Categories
-            </li>
-            <li className="mt-4">
-              <button className="px-8 py-3 cursor-pointer font-semibold text-sm bg-[#054C73] rounded-full text-white transition-colors hover:bg-[#043c5a]">
-                Get the app
-              </button>
-            </li>
-          </ul>
-        </div>
-
-        {/* Overlay */}
-        {nav && (
-          <div 
-            className="fixed inset-0 bg-black bg-opacity-50 z-40"
-            onClick={handleNav}
-          />
-        )}
       </div>
     </div>
   );
