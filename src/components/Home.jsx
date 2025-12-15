@@ -59,7 +59,7 @@ const Home = () => {
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Shop the latest t-shirts, shorts, hats, shoes, and slippers that
                 everyone loves. Stay stylish with high-quality essentials at
-                great prices — fast shipping guaranteed!
+                great prices from TikTok and Shopee Shop.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
