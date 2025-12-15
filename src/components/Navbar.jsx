@@ -52,7 +52,7 @@ const Navbar = () => {
           >
             Categories
           </li>
-          <li className="mt-4">
+          <li className="p-6">
             <button
               onClick={handleGetApp}
               className="px-5 py-3 cursor-pointer font-semibold text-sm bg-[#054C73] rounded-full text-white transition-colors hover:bg-[#043c5a]"
