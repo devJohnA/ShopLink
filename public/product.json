@@ -4,6 +4,7 @@
     "name": "Nike Logo Tee",
     "color": "Black",
     "price": "$45",
+    "category": "Nike",
     "image": "https://dummyimage.com/600x700/000/fff&text=NIKE+LOGO+TEE",
     "link": "https://www.nike.com/"
   },
@@ -12,6 +13,7 @@
     "name": "Nike Dri-FIT Tee",
     "color": "White",
     "price": "$50",
+    "category": "Nike",
     "image": "https://dummyimage.com/600x700/f5f5f5/000&text=NIKE+DRI-FIT",
     "link": "https://www.nike.com/"
   },
@@ -20,6 +22,7 @@
     "name": "Adidas Trefoil Tee",
     "color": "Black",
     "price": "$40",
+    "category": "Adidas",
     "image": "https://dummyimage.com/600x700/000/fff&text=ADIDAS+TREFOIL",
     "link": "https://www.adidas.com/"
   },
@@ -28,6 +31,7 @@
     "name": "Adidas Performance Tee",
     "color": "Blue",
     "price": "$48",
+    "category": "Adidas",
     "image": "https://dummyimage.com/600x700/0d47a1/fff&text=ADIDAS+PERFORMANCE",
     "link": "https://www.adidas.com/"
   },
@@ -36,6 +40,7 @@
     "name": "Puma Big Logo Tee",
     "color": "Red",
     "price": "$35",
+    "category": "Puma",
     "image": "https://dummyimage.com/600x700/b71c1c/fff&text=PUMA+LOGO+TEE",
     "link": "https://us.puma.com/"
   },
@@ -44,6 +49,7 @@
     "name": "Puma Essentials Tee",
     "color": "White",
     "price": "$38",
+    "category": "Puma",
     "image": "https://dummyimage.com/600x700/f5f5f5/000&text=PUMA+ESSENTIALS",
     "link": "https://us.puma.com/"
   },
@@ -52,6 +58,7 @@
     "name": "New Balance Athletics Tee",
     "color": "Gray",
     "price": "$42",
+    "category": "New Balance",
     "image": "https://dummyimage.com/600x700/9e9e9e/000&text=NEW+BALANCE+ATHLETICS",
     "link": "https://www.newbalance.com/"
   },
@@ -60,6 +67,7 @@
     "name": "New Balance Essentials Tee",
     "color": "Navy",
     "price": "$38",
+    "category": "New Balance",
     "image": "https://dummyimage.com/600x700/0d1b2a/fff&text=NB+ESSENTIALS",
     "link": "https://www.newbalance.com/"
   },
@@ -68,6 +76,7 @@
     "name": "Nike Streetwear Tee",
     "color": "Beige",
     "price": "$50",
+    "category": "Nike",
     "image": "https://dummyimage.com/600x700/d7ccc8/000&text=NIKE+STREETWEAR",
     "link": "https://www.nike.com/"
   },
@@ -76,6 +85,7 @@
     "name": "Adidas Adicolor Tee",
     "color": "Green",
     "price": "$45",
+    "category": "Adidas",
     "image": "https://dummyimage.com/600x700/1b5e20/fff&text=ADIDAS+ADICOLOR",
     "link": "https://www.adidas.com/"
   }
