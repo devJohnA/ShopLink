@@ -55,7 +55,7 @@ const Navbar = () => {
           <li className="mt-4">
             <button
               onClick={handleGetApp}
-              className="px-8 py-3 cursor-pointer font-semibold text-sm bg-[#054C73] rounded-full text-white transition-colors hover:bg-[#043c5a]"
+              className="px-5 py-3 cursor-pointer font-semibold text-sm bg-[#054C73] rounded-full text-white transition-colors hover:bg-[#043c5a]"
             >
               Android app
             </button>
