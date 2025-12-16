@@ -18,7 +18,7 @@ const About = () => {
       </h2>
 
       {/* Description */}
-      <p className="text-center text-gray-600 max-w-2xl mx-auto mb-20 text-lg leading-relaxed" data-aos="zoom-in >
+      <p className="text-center text-gray-600 max-w-2xl mx-auto mb-20 text-lg leading-relaxed" data-aos="zoom-in">
         ShopLink is a modern platform designed to make browsing TikTok and Shopee Shop products
         effortless. As a TikTok and Shopee Affiliate, I created this website to help users discover
         trending items and instantly redirect them to the official TikTok and Shopee Shop page —
@@ -29,7 +29,7 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
         {/* Card 1 */}
-        <div className="backdrop-blur-xl bg-white/60 shadow-xl p-8 rounded-3xl border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all">
+        <div className="backdrop-blur-xl bg-white/60 shadow-xl p-8 rounded-3xl border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
           <div className="flex items-center justify-center mb-5">
             <ShoppingBag className="h-10 w-10 text-[#054c73]" />
           </div>
@@ -41,7 +41,7 @@ const About = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="backdrop-blur-xl bg-white/60 shadow-xl p-8 rounded-3xl border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all">
+        <div className="backdrop-blur-xl bg-white/60 shadow-xl p-8 rounded-3xl border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
           <div className="flex items-center justify-center mb-5">
             <LinkIcon className="h-10 w-10 text-[#054c73]" />
           </div>
@@ -53,7 +53,7 @@ const About = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="backdrop-blur-xl bg-white/60 shadow-xl p-8 rounded-3xl border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all">
+        <div className="backdrop-blur-xl bg-white/60 shadow-xl p-8 rounded-3xl border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
           <div className="flex items-center justify-center mb-5">
             <Star className="h-10 w-10 text-[#054c73]" />
           </div>
