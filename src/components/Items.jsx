@@ -51,22 +51,22 @@ const Items = () => {
     );
   }
 
-    useEffect(() => {
-    window.AOS?.init({
-      duration: 800,
-      once: true,
-    });
-  }, []);
+  //   useEffect(() => {
+  //   window.AOS?.init({
+  //     duration: 800,
+  //     once: true,
+  //   });
+  // }, []);
 
   return (
     <div className="bg-white min-h-screen">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         {/* Catchy Header Section */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold text-[#054c73]" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+          <h1 className="text-4xl sm:text-5xl font-bold text-[#054c73]">
             Trending Products You'll Love!
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mt-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mt-5">
             Discover the hottest deals on viral TikTok products. Limited stock,
             don't miss out!
           </p>
