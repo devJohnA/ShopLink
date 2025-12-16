@@ -7,7 +7,7 @@ const About = () => {
     <div id="about" className="max-w-6xl mx-auto px-6 py-24">
 
       {/* Heading */}
-      <h2 className="text-center font-bold text-4xl mb-8">
+      <h2 className="text-center font-bold text-4xl mb-8" data-aos="zoom-in">
         About <span className="text-[#054c73]">ShopLink</span>
       </h2>
 
