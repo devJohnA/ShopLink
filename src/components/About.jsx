@@ -3,6 +3,15 @@ import "../App.css";
 import { ShoppingBag, LinkIcon, Star } from "lucide-react";
 
 const About = () => {
+
+  function About() {
+  useEffect(() => {
+    window.AOS?.init({
+      duration: 800,
+      once: true,
+    });
+  }, []);
+    
   return (
     <div id="about" className="max-w-6xl mx-auto px-6 py-24">
 
