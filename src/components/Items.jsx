@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ArrowRight } from "lucide-react";
 
-const Items = () => {
+const Items = () => {  
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [categories, setCategories] = useState([]);
@@ -24,6 +24,11 @@ const Items = () => {
         console.error("Error loading products:", error);
         setLoading(false);
       });
+    //Animate on scroll
+     window.AOS?.init({
+      duration: 800,
+      once: true,
+    });
   }, []);
 
   const handleCategoryChange = (category) => {
@@ -51,12 +56,7 @@ const Items = () => {
     );
   }
 
-  //   useEffect(() => {
-  //   window.AOS?.init({
-  //     duration: 800,
-  //     once: true,
-  //   });
-  // }, []);
+
 
   return (
     <div className="bg-white min-h-screen">
