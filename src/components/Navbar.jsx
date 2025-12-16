@@ -35,19 +35,19 @@ const Navbar = () => {
 
         <ul className="hidden md:flex items-center">
           <li
-            className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700"
+            className="p-6 cursor-pointer font-semibold  text-sm hover:text-[#054C73] transition-colors text-zinc-700"
             onClick={() => scrollToSection("home")}
           >
             Home
           </li>
           <li
-            className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700"
+            className="p-6 cursor-pointer font-semibold  text-sm hover:text-[#054C73] transition-colors text-zinc-700"
             onClick={() => scrollToSection("about")}
           >
             About
           </li>
           <li
-            className="p-6 cursor-pointer font-semibold text-xl hover:text-[#054C73] transition-colors text-zinc-700"
+            className="p-6 cursor-pointer font-semibold  text-sm hover:text-[#054C73] transition-colors text-zinc-700"
             onClick={() => scrollToSection("categories")}
           >
             Categories
