@@ -58,7 +58,7 @@ const Home = () => {
         <div className="mx-auto max-w-7xl py-16 sm:py-24 lg:py-32">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Side - Introduction */}
-            <div className="text-left">
+            <div className="text-left" data-aos="fade-right">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl mb-6">
                 Discover Trending Apparel
               </h1>
@@ -80,7 +80,7 @@ const Home = () => {
             </div>
 
             {/* Right Side - Carousel */}
-            <div className="relative">
+            <div className="relative" data-aos="fade-left">
               <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden">
                 {/* Carousel Images */}
                 <div className="relative h-[400px] sm:h-[500px]">
@@ -138,4 +138,5 @@ const Home = () => {
 };
 
 export default Home;
+
 
