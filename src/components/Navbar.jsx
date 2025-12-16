@@ -27,7 +27,7 @@ const Navbar = () => {
     <div className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
       <div className="flex justify-between items-center h-18 px-7 max-w-[1340px] mx-auto">
         <h1
-          className="text-3xl font-bold text-[#054C73] cursor-pointer"
+          className="text-xl font-bold text-[#054C73] cursor-pointer"
           onClick={() => scrollToSection("home")}
         >
           ShopLink
