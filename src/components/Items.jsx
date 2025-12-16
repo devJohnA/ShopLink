@@ -172,9 +172,9 @@ const Items = () => {
 
                     {/* Price + Button */}
                     <div className="mt-4 flex items-center justify-between">
-                      <p className="text-lg font-bold text-gray-900">
+                      {/* <p className="text-lg font-bold text-gray-900">
                         {product.price}
-                      </p>
+                      </p> */}
 
                       <a
                         href={product.link}
