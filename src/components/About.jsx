@@ -18,7 +18,7 @@ const About = () => {
       </h2>
 
       {/* Description */}
-      <p className="text-center text-gray-600 max-w-2xl mx-auto mb-20 text-lg leading-relaxed">
+      <p className="text-center text-gray-600 max-w-2xl mx-auto mb-20 text-lg leading-relaxed" data-aos="zoom-in >
         ShopLink is a modern platform designed to make browsing TikTok and Shopee Shop products
         effortless. As a TikTok and Shopee Affiliate, I created this website to help users discover
         trending items and instantly redirect them to the official TikTok and Shopee Shop page —
