@@ -42,6 +42,13 @@ const Home = () => {
     }
   };
 
+   useEffect(() => {
+    window.AOS?.init({
+      duration: 800,
+      once: true,
+    });
+  }, []);
+
   return (
     <div
       className="min-h-screen bg-gray-50 flex items-center justify-center"
@@ -131,3 +138,4 @@ const Home = () => {
 };
 
 export default Home;
+
