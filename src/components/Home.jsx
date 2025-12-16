@@ -44,7 +44,7 @@ const Home = () => {
 
    useEffect(() => {
     window.AOS?.init({
-      duration: 800,
+      duration: 1500,
       once: true,
     });
   }, []);
@@ -138,5 +138,6 @@ const Home = () => {
 };
 
 export default Home;
+
 
 
