@@ -2,9 +2,17 @@
   {
     "id": 1,
     "name": "Lingerie Sports Soft Fabric Set Stylish Outdoor Human Day ",
-    "price": "₱440",
     "category": "Shorts",
     "image": "/DrifitShort.png",
     "link": "https://vt.tiktok.com/ZSHwWSvRTrLyu-yW9Oe/"
-  }
+  },
+
+  {
+    "id": 2,
+    "name": "Luka Doncic LA-KERS  JERSEY CUSTOMIZED TEAM ",
+    "category": "Jersey",
+    "image": "/Lakers.png",
+    "link": "https://vt.tiktok.com/ZSHwWw19pQp4M-A6wyI/"
+  },
+  
 ]
