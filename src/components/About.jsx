@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
 import { ShoppingBag, LinkIcon, Star } from "lucide-react";
 
